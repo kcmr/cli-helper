@@ -1,0 +1,18 @@
+language: node_js
+node_js: stable
+dist: trusty
+
+cache: npm
+
+before_install:
+  - npm install -g npm@6
+  - npm install
+
+install:
+  - npm ci
+
+deploy:
+  - provider: script
+    cleanup: true
+    script:
+      - npx -p @semantic-release/changelog -p @semantic-release/git -p semantic-release semantic-release
