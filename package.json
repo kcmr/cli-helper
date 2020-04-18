@@ -1,7 +1,7 @@
 {
   "name": "@kuscamara/cli-helper",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "A multicommand CLI helper that uses yargs for command options and inquirer for prompt",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -58,5 +58,16 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcmr/cli-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kcmr/cli-helper/issues"
+  },
+  "homepage": "https://github.com/kcmr/cli-helper#readme"
 }
