@@ -1,6 +1,6 @@
 {
   "name": "@kuscamara/cli-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A multicommand CLI helper that uses yargs for command options and inquirer for prompt",
   "main": "lib/index.js",
   "files": [
