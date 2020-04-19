@@ -13,6 +13,6 @@ script:
 
 deploy:
   - provider: script
-    cleanup: true
+    skip_cleanup: true
     script:
       - npx -p @semantic-release/changelog -p @semantic-release/git -p semantic-release semantic-release
