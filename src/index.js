@@ -30,7 +30,7 @@ import inquirer, { prompt } from 'inquirer';
  * cli.run();
  * ```
  */
-export default class CliHelper {
+export class CliHelper {
   /**
    * CliHelper constructor
    * @param  {String} options.description Main command description
