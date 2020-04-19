@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kcmr/cli-helper/compare/1.0.1...1.0.2) (2020-04-19)
+
+
+### Bug Fixes
+
+* **package:** publish package ([d66a347](https://github.com/kcmr/cli-helper/commit/d66a347513667b621e11b6335a778adcf50b1260))
+
 ## [1.0.1](https://github.com/kcmr/cli-helper/compare/1.0.0...1.0.1) (2020-04-19)
 
 
