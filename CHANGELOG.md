@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kcmr/cli-helper/compare/1.0.2...1.0.3) (2020-04-19)
+
+
+### Bug Fixes
+
+* **docs:** wrong docs about requiring the package ([83517c3](https://github.com/kcmr/cli-helper/commit/83517c336b52eb5d20db2370fa81c2576efa9fd9))
+
 ## [1.0.2](https://github.com/kcmr/cli-helper/compare/1.0.1...1.0.2) (2020-04-19)
 
 
