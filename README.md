@@ -23,7 +23,7 @@ npm i @kuscamara/cli-helper
 `CliHelper` creates CLIs from the specified commands object and uses [yargs](https://www.npmjs.com/package/yargs) for command options and [inquirer](https://www.npmjs.com/package/inquirer) to prompt for missing params not passed as flags / options.
 
 ```js
-const CliHelper = require('@kuscamara/cli-helper');
+const { CliHelper } = require('@kuscamara/cli-helper');
 const cli = new CliHelper({ options });
 ```
 
@@ -36,7 +36,7 @@ const cli = new CliHelper({ options });
 **Full example**
 
 ```js
-const CliHelper = require('@kuscamara/cli-helper');
+const { CliHelper } = require('@kuscamara/cli-helper');
 
 const cli = new CliHelper({
   description: 'My awesome CLI',
@@ -74,7 +74,7 @@ cli.run();
 ### Registering custom prompt types
 
 ```js
-const CliHelper = require('@kuscamara/cli-helper');
+const { CliHelper } = require('@kuscamara/cli-helper');
 const { PathPrompt } = require('inquirer-path');
 
 CliHelper.registerPrompt('path', PathPrompt);
