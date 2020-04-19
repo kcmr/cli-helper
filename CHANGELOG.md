@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kcmr/cli-helper/compare/1.0.3...1.0.4) (2020-04-19)
+
+
+### Bug Fixes
+
+* do not export class as default ([ab89a6e](https://github.com/kcmr/cli-helper/commit/ab89a6e555896b4ae7794d44019c552dda160248))
+
 ## [1.0.3](https://github.com/kcmr/cli-helper/compare/1.0.2...1.0.3) (2020-04-19)
 
 
