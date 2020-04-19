@@ -10,7 +10,6 @@ import inquirer, { prompt } from 'inquirer';
  *
  * @example
  * ```js
- * const { CliHelper } = require('./cli-helper');
  * const cli = new CliHelper({
  *   description: 'My awesome CLI',
  *   commands: {
